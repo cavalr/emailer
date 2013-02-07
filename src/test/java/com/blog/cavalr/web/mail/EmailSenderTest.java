@@ -18,11 +18,11 @@ public class EmailSenderTest {
 
     @Test
     public void testSendEmail() throws Exception {
-        emailSender.sendEmail("to@email.com", "from@email.com", "Test");
+        emailSender.sendEmail("baljit.garcha@cavalr.com", "baljit.garcha@cavalr.com", "Test");
     }
 
     @Test
     public void testSendEmailWithAttachment() throws Exception {
-        emailSender.sendEmailWithAttachment("to@email.com", "from@email.com", "Test",
-                "attachment.txt1", "attachment.txt");
+        emailSender.sendEmailWithAttachment("baljit.garcha@cavalr.com", "baljit.garcha@cavalr.com", "Test",
+                "attachment.txt", "attachment.txt");
     }}
